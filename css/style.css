@@ -1,0 +1,44 @@
+/* reset   */
+* {margin: 0; padding: 0; font-size: 1rem; text-decoration: none;}
+
+/*  Configurando o header        */
+.sessao-header {width: 100vw; height: 100vh; background-color: #3085C2; overflow: hidden; position: relative; }
+.header-menu {  width: 100%; height: 8vh;  display: flex; flex-direction: row; align-items: center; justify-content: space-between; background-color: #215A83;}
+.sessao-logo a {font-size:1rem; color: #fff; margin-left: 1.5rem ; text-transform: uppercase; }
+.sessao-menu {width:50%;  font-size: 1rem; color: #fff; display: flex; flex-direction: row ; justify-content: flex-end; align-items: center; }
+.menu a {font-size: 1rem; color: #fff; padding: 2rem; text-transform: uppercase;}
+.menu a:hover {color: black; font-weight: 500; margin-left: solid black; border-right: 1px solid black; }
+.sessao-logo a:hover {border-right: 1px solid black; padding-right: .5rem; color: black; font-size: 1.1rem;}
+
+/*    config wrapper com imagem do header      */
+.img-wrapper {width: 100vw; height: 70vh; background-color: rgba(0,0,0,0.9); overflow: hidden;}
+.img-wrapper img {height: 100%; width: 100%; object-fit: cover; opacity: 0.5; animation: zoom 25s;}
+
+/*  criando animação do img-wrapper        */
+@keyframes zoom{
+    0% {transform: scale(1.3);}
+    100% {transform: scale(1);}
+}
+/*   texto do img-wrapper       */
+.text-wrapper { width: 100vw; height: 100%; max-width: 100vw; text-align: center; overflow: hidden; position: absolute; top: 20%; color: #fff; animation: moveText 1.7s 0.5s forwards; opacity: 0;}
+.text-wrapper h1 {font-size: 4rem; text-transform: uppercase; text-shadow: .2rem .2rem rgba(0,0,0,0.4);}
+.text-wrapper p {font-size: 2rem; margin-top: 2rem; text-shadow: .2rem .2rem rgba(0,0,0,0.4);}
+
+/*  Criando animação do text-wrapper    */
+@keyframes moveText {
+    0% {transform: translateY(10rem) rotateY(-30deg);}
+    100% {transform: translateY(0) rotateY(0); opacity: 1;}
+
+}
+/* editando icons-wrapper         */
+.icons-wrapper { width: 100%; height: 22vh; color: #000; display: flex; align-items: center; justify-content: space-around;}
+.icons-wrapper div {display: flex; flex-direction: column; align-items: center; justify-content: center;  animation: moveIcon 1.5s; }
+.icons-wrapper div i {font-size: 2rem; margin-bottom: 1rem;}
+.icons-wrapper div span {font-size: 1rem; text-transform: uppercase;}
+/*    animação dos icones do icons-wrapper      */
+@keyframes moveIcon {
+    0% {transform: scale(1.5); opacity: 0; }
+    100% {transform: scale(1);  opacity: 1;}
+}
+
+/*          */
