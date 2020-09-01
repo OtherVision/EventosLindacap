@@ -2,7 +2,7 @@
 * {margin: 0; padding: 0; font-size: 1rem; text-decoration: none;}
 
 /*  Configurando o header        */
-.sessao-header {width: 100vw; height: 100vh; background-color: #3085C2; overflow: hidden; position: relative; }
+.sessao-header {width: 100%; height: 100vh; background-color: #3085C2; overflow: hidden; position: relative; }
 .header-menu {  width: 100%; height: 8vh;  display: flex; flex-direction: row; align-items: center; justify-content: space-between; background-color: #215A83;}
 .sessao-logo a {font-size:1rem; color: #fff; margin-left: 1.5rem ; text-transform: uppercase; }
 .sessao-menu {width:50%;  font-size: 1rem; color: #fff; display: flex; flex-direction: row ; justify-content: flex-end; align-items: center; }
@@ -41,4 +41,24 @@
     100% {transform: scale(1);  opacity: 1;}
 }
 
+/*  configs da section eventos        */
+.sessao-eventos {width: 100%;  background-color: #215A83; overflow: hidden;}
+.header-eventos {width: 100%; height: 15vh;color:#fff;  overflow: hidden; text-align: center;}
+.header-eventos h2{font-size: 2rem; text-transform: uppercase; padding: 1rem;}
+.header-eventos p {font-size: 1.2rem;}
+
+.box-salas-eventos { background-color:white; width: 80%; margin: 0 auto; height: 60vh; border: 1px solid black; margin-top: 2rem; display: flex; justify-content: space-around; align-items: center; border-radius: 2rem; box-shadow: .2rem .2rem rgba(0,0,0,0.4); }
+.img-eventos {height: 85%; background-color: black; width: 45% ; background-color: rgba(0,0,0,0.9);}
+.img-eventos img {height: 100%; width: 100%; opacity: 0.5;}
+.descricao-eventos {height: 85%;  width: 45% ; color: black; text-align: justify; display:flex; flex-direction: column; align-items: center; justify-content: center; text-shadow: .1rem  rgba(0,0,0,0.4);}
+.descricao-eventos h3 {padding-bottom: 2rem; font-size: 2rem;}
+.descricao-eventos p {font-size: 1.2rem;}
+
+
+
+
+/*          */
+/*          */
+/*          */
+/*          */
 /*          */
