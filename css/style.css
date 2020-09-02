@@ -60,9 +60,23 @@
 .header-sobre h2 {font-size: 2rem; text-transform: uppercase; padding: 1rem; color: #fff;}
 .text-sobre { background-color:#fff; color: #000;  width: 80%; height: 80vh; margin: 0 auto; text-align: justify; border-radius: 1rem; box-shadow: .1rem .1rem rgba(0,0,0,0.4);}
 .text-sobre p {font-size: 1.2rem; padding: 4rem;}
+/* confgs sessao de contato          */
+.sesssao-contato {width: 100%; height: 100vh;}
+.header-contato {width: 100%; height: 15vh;  color: #fff; text-align: center;}
+.header-contato h2 {font-size: 2rem; text-transform: uppercase; padding: 1rem; color: #000;}
+.form-contato {width: 80%; height: auto; margin:  .2rem auto; background-color: black; color: white;  border: 1px solid white;}
+.form-contato hr { width: 100%;}
+/* formatando o formulário de contato         */
+.form-contato {   display: grid; grid-template-columns: auto 1fr;  column-gap: 5rem;}
+.form-1 input {width: 3rem;}
+.form-1 #email {width: 8rem;}
+.form-2{ height: 8rem; width: 100%;}
+.form-3{ height: 8rem; width: 100%;}
+.form-4{ height: 8rem; width: 100%;}
+/*          */
+/*          */
 
 
-/*          */
-/*          */
-/*          */
-/*          */
+
+
+
