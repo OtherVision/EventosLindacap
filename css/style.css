@@ -13,8 +13,9 @@ html {scroll-behavior: smooth;}
 /*  Configurando o header        */
 .sessao-header {width: 100%; height: 100vh; background-color: #1A2930; overflow: hidden; position: relative; }
 .header-menu {  width: 100%; height: 10vh;  display: flex; flex-direction: row; align-items: center; justify-content: space-between; background-color:rgba(26, 41, 48, .7); position: fixed; z-index: 170; }
+.sessao-logo {width: 50%;}
 .sessao-logo a {  font-family: var(--font-menu); font-size:1rem; color: #fff; margin-left: 1.5rem ; text-transform: uppercase; font-weight: 300; letter-spacing: .2rem; }
-.sessao-menu {width:50%;  font-size: 1rem; color: #fff; display: flex; flex-direction: row ; justify-content: flex-end; align-items: center; padding-right: .5rem; }
+.sessao-menu {width:100%;  font-size: 1rem; color: #fff; display: flex; flex-direction: row ; justify-content: flex-end; align-items: center; padding-right: .5rem; }
 .menu a { font-family: var(--font-menu); font-weight: 300; letter-spacing: .2rem; font-size: 1rem; color: #fff; padding: 0 2rem; text-transform: uppercase;}
 .menu a:hover {color: black; font-weight: 700;  margin-left: solid black; border-right: 1px solid black; ;}
 .sessao-logo a:hover {border-right: 1px solid black;  color: black; font-weight: 700; }
@@ -58,13 +59,41 @@ html {scroll-behavior: smooth;}
 .header-eventos p { font-family: var(--font-text); font-size: 1.2rem;}
 .box-salas-eventos { background-color:white; width: 80%; margin: 0 auto; height: 60vh; border: 1px solid black; margin-top: 2rem; display: flex; justify-content: space-around; align-items: center; border-radius: 1rem; box-shadow: .2rem .2rem rgba(0,0,0,0.4); }
 .box-salas-eventos:nth-child(6) {margin-bottom: 3rem;}
+/*   confgs da galeria de imagem       */
 .img-eventos { position: relative; height: 85%; background-color: black; width: 45% ; background-color: rgba(0,0,0,0.9); box-shadow: .1rem .1rem rgba(0,0,0,0.4);}
 .img-eventos img {height: 100%; width: 100%;}
-/*   confgs da galeria de imagem       */
 .gallery {width: 100%; height: 100%;  display: flex;  }
 .imagem-escondida { z-index: 150; }
 .gallery img {transition: 1s; width: 100%; height: 100%; position: absolute; }
 .gallery img:hover{filter: grayscale(100%); }
+
+.img-eventos-two { position: relative; height: 85%; background-color: black; width: 45% ; background-color: rgba(0,0,0,0.9); box-shadow: .1rem .1rem rgba(0,0,0,0.4);}
+.img-eventos-two img {height: 100%; width: 100%;}
+.gallery-two {width: 100%; height: 100%;  display: flex;  }
+.imagem-escondida { z-index: 150; }
+.gallery-two img {transition: 1s; width: 100%; height: 100%; position: absolute; }
+.gallery-two img:hover{filter: grayscale(100%); }
+
+.img-eventos-three { position: relative; height: 85%; background-color: black; width: 45% ; background-color: rgba(0,0,0,0.9); box-shadow: .1rem .1rem rgba(0,0,0,0.4);}
+.img-eventos-three img {height: 100%; width: 100%;}
+.gallery-three {width: 100%; height: 100%;  display: flex;  }
+.imagem-escondida { z-index: 150; }
+.gallery-three img {transition: 1s; width: 100%; height: 100%; position: absolute; }
+.gallery-three img:hover{filter: grayscale(100%); }
+
+.img-eventos-four { position: relative; height: 85%; background-color: black; width: 45% ; background-color: rgba(0,0,0,0.9); box-shadow: .1rem .1rem rgba(0,0,0,0.4);}
+.img-eventos-four img {height: 100%; width: 100%;}
+.gallery-four {width: 100%; height: 100%;  display: flex;  }
+.imagem-escondida { z-index: 150; }
+.gallery-four img {transition: 1s; width: 100%; height: 100%; position: absolute; }
+.gallery-four img:hover{filter: grayscale(100%); }
+
+.img-eventos-five { position: relative; height: 85%; background-color: black; width: 45% ; background-color: rgba(0,0,0,0.9); box-shadow: .1rem .1rem rgba(0,0,0,0.4);}
+.img-eventos-five img {height: 100%; width: 100%;}
+.gallery-five {width: 100%; height: 100%;  display: flex;  }
+.imagem-escondida { z-index: 150; }
+.gallery-five img {transition: 1s; width: 100%; height: 100%; position: absolute; }
+.gallery-five img:hover{filter: grayscale(100%); }
 
 .descricao-eventos {height: 85%;  width: 45% ; color: black; text-align: justify; display:flex; flex-direction: column; align-items: center; justify-content: center; text-shadow: .1rem  rgba(0,0,0,0.4);}
 .descricao-eventos h3 { font-family: var(--font-title); padding-bottom: 2rem; font-size: 2rem;}
@@ -112,7 +141,12 @@ hr {margin: 1.5rem;}
 .lindacap-info {line-height: 1.5rem;}
 .othervision-info {text-align: center;}
 
+/*   responsividade       */
+@media (max-width: 1050px) {
+    .sessao-logo {display: none;}
+    .sessao-menu {justify-content: center; padding-right: 0;}
 
+}
 
 
 
