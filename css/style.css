@@ -119,13 +119,16 @@ hr {margin: 1.5rem;}
 @media (max-width: 1050px) {
     .sessao-logo {display: none;}
     .sessao-menu {justify-content: center; padding-right: 0;}
-    .box-salas-eventos{position: relative;  }
+    .box-salas-eventos{position: relative; height: 45vh;  }
     .descricao-eventos {width: 80%; }
-    .img-eventos, .img-eventos-two, .img-eventos-three, .img-eventos-four, .img-eventos-five {width: 10%; height: 10%; position: absolute; bottom: 10%; opacity: 0.3; border: 2px solid #000;}    
+    .img-eventos, .img-eventos-two, .img-eventos-three, .img-eventos-four, .img-eventos-five {width: 10%; height: 15%; position: absolute; bottom: 10%; opacity: 0.3; border: 2px solid #000;}    
+    html {font-size: .8rem;}
 }
 
 @media (max-width:620px) {
-    .menu a{font-size: 1rem; padding: 0 1rem; }    
+    .menu a{font-size: 1rem; padding: 0 2rem; } 
+    .header-eventos h2, .header-sobre h2, .header-contato h2 {font-size:  1.5rem;}   
+    .descricao-eventos h3 {font-size: 1.4rem;}
 }
 
 @media (max-width:770px) {    
