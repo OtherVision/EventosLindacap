@@ -62,14 +62,14 @@ html {scroll-behavior: smooth;}
 /*   confgs da galeria de imagem       */
 .img-eventos, .img-eventos-two, .img-eventos-three, .img-eventos-four, .img-eventos-five { position: relative; height: 85%; background-color: black; width: 45% ; background-color: rgba(0,0,0,0.9); box-shadow: .1rem .1rem rgba(0,0,0,0.4);}
 .img-eventos img, .img-eventos-two img, .img-eventos-three img, .img-eventos-four img, .img-eventos-five img {height: 100%; width: 100%;}
-.gallery, .gallery-two, .gallery-three, .gallery-four, .gallery-five {width: 100%; height: 100%;  display: flex;  }
+.gallery, .gallery-two, .gallery-three, .gallery-four, .gallery-five {width: 100%; height: 100%;  display: flex; }
 .imagem-escondida { z-index: 150; }
 .gallery img, .gallery-two img, .gallery-three img, .gallery-four img, .gallery-five img {transition: 1s; width: 100%; height: 100%; position: absolute; }
 .gallery img:hover, .gallery-two img:hover, .gallery-three img:hover, .gallery-four img:hover, .gallery-five img:hover{filter: grayscale(100%); }
 
 
 .descricao-eventos {height: 85%;  width: 45% ; color: black; text-align: justify; display:flex; flex-direction: column; align-items: center; justify-content: center; text-shadow: .1rem  rgba(0,0,0,0.4);}
-.descricao-eventos h3 { font-family: var(--font-title); padding-bottom: 2rem; font-size: 2rem;}
+.descricao-eventos h3 { font-family: var(--font-title); padding-bottom: 2rem; font-size: 1.6rem;}
 .descricao-eventos p {font-family: var(--font-text); font-size: 1.2rem;}
 /*  configs da sessao sobre         */
 .sessao-sobre {width: 100%; height: auto; background-color: #1A2930; padding-bottom: 2rem;}
