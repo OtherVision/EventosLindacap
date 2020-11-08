@@ -6,7 +6,7 @@
 
 ##<strong>Descrição do projeto</strong> :page_facing_up:
 
-Site para a empresa Edificio Lindacap, focado no setor de eventos da empresa. 
+Site fictício para a empresa Edificio Lindacap, focado no setor de eventos da empresa.
 
 ##<strong>Funcionalidades </strong> :arrow_forward:
 
@@ -14,6 +14,8 @@ Site para a empresa Edificio Lindacap, focado no setor de eventos da empresa.
 :point_right: Box com descrição e imagens das salas de evento da empresa.
 :point_right: Formulário de contato, já solicitando informações necessárias para um futuro orçamento.
 
-##<strong>Informações </strong> :speaker:
+##<strong>Tecnologias </strong> :speaker:
 
-Site desenvolvido em HTML, CSS e JS, sem o auxilio de frameworks ou outras tecnologias que necessitem de passo a passo para instalação.
+:point_right: HTML
+:point_right: CSS
+:point_right: JS
