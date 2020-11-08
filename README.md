@@ -11,7 +11,7 @@ Site fictício para a empresa Edificio Lindacap, focado no setor de eventos da e
 ##<strong>Funcionalidades </strong> :arrow_forward:
 
 :point_right: Menu no topo para acessar as sessões do site. <br>
-:point_right: Box com descrição e imagens das salas de evento da empresa.
+:point_right: Box com descrição e imagens das salas de evento da empresa. <br>
 :point_right: Formulário de contato, já solicitando informações necessárias para um futuro orçamento.
 
 ##<strong>Tecnologias </strong> :speaker:
