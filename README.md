@@ -16,6 +16,6 @@ Site fictício para a empresa Edificio Lindacap, focado no setor de eventos da e
 
 ##<strong>Tecnologias </strong> :speaker:
 
-:point_right: HTML
-:point_right: CSS
+:point_right: HTML <br>
+:point_right: CSS <br>
 :point_right: JS
